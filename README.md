@@ -23,6 +23,7 @@ $ python otp.py --help
 
 You can also build a single-file executable bundle:
 ```sh
+$ pip install pyinstaller
 $ pyinstaller otp.py --onefile --name=otp
 ```
 For Linux/MacOS, set the "executable" permission:
